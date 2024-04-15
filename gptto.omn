@@ -201,7 +201,7 @@ Class: <https://w3id.org/gptto/0028>
 
     Annotations: 
         rdfs:label "Phenomenon"@en,
-        <https://w3id.org/gptto/0056> "Phenomena are occurrences that imply some kind of pattern or broader significance, which than can be scientifically be studied."
+        <https://w3id.org/gptto/0056> "Phenomena are occurrences that imply some kind of pattern or broader significance, which then can be scientifically be studied."
     
     SubClassOf: 
         <https://w3id.org/gptto/0025>
