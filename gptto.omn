@@ -10,7 +10,7 @@ Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
 Ontology: <https://w3id.org/gptto/>
 <https://w3id.org/gptto/v1.0.0/>
 
-AnnotationProperty: <ttps://w3id.org/gptto/0056>
+AnnotationProperty: <https://w3id.org/gptto/0056>
 
     Annotations: 
         rdfs:label "definition"@en
@@ -25,442 +25,442 @@ Datatype: rdf:PlainLiteral
 Datatype: xsd:string
 
     
-ObjectProperty: <ttps://w3id.org/gptto/0057>
+ObjectProperty: <https://w3id.org/gptto/0057>
 
     Annotations: 
         rdfs:label "manifests"@en
     
     Domain: 
-        <ttps://w3id.org/gptto/0026>
+        <https://w3id.org/gptto/0026>
     
     Range: 
-        <ttps://w3id.org/gptto/0033>
+        <https://w3id.org/gptto/0033>
     
     
-ObjectProperty: <ttps://w3id.org/gptto/0059>
+ObjectProperty: <https://w3id.org/gptto/0059>
 
     Annotations: 
         rdfs:label "feature of"@en
     
     
-Class: <ttps://w3id.org/gptto/0012>
+Class: <https://w3id.org/gptto/0012>
 
     Annotations: 
         rdfs:label "Entity"@en
     
     
-Class: <ttps://w3id.org/gptto/0013>
+Class: <https://w3id.org/gptto/0013>
 
     Annotations: 
         rdfs:label "Concrete Entity"@en,
-        <ttps://w3id.org/gptto/0056> "Concrete entities physically exist, have perceivable, observable or measurable characteristics or behaviours. These entities can be part of complex systems or networks and interact with one another and with their environment through processes."
+        <https://w3id.org/gptto/0056> "Concrete entities physically exist, have perceivable, observable or measurable characteristics or behaviours. These entities can be part of complex systems or networks and interact with one another and with their environment through processes."
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0012>
+        <https://w3id.org/gptto/0012>
     
     DisjointWith: 
-        <ttps://w3id.org/gptto/0014>
+        <https://w3id.org/gptto/0014>
     
     
-Class: <ttps://w3id.org/gptto/0014>
+Class: <https://w3id.org/gptto/0014>
 
     Annotations: 
         rdfs:label "Abstract Entity"@en,
-        <ttps://w3id.org/gptto/0056> "Abstract entities are entities that do not exist in a physical form and have no physical attributes, therefore they cannot be perceived directly through the senses. These include concepts, values, processes and characteristics."
+        <https://w3id.org/gptto/0056> "Abstract entities are entities that do not exist in a physical form and have no physical attributes, therefore they cannot be perceived directly through the senses. These include concepts, values, processes and characteristics."
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0012>
+        <https://w3id.org/gptto/0012>
     
     DisjointWith: 
-        <ttps://w3id.org/gptto/0013>
+        <https://w3id.org/gptto/0013>
     
     
-Class: <ttps://w3id.org/gptto/0015>
+Class: <https://w3id.org/gptto/0015>
 
     Annotations: 
         rdfs:label "Object"@en,
-        <ttps://w3id.org/gptto/0056> "An object is an concrete entity that exists physically and has physical characteristics, that can be perceived."
+        <https://w3id.org/gptto/0056> "An object is an concrete entity that exists physically and has physical characteristics, that can be perceived."
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0013>
+        <https://w3id.org/gptto/0013>
     
     
-Class: <ttps://w3id.org/gptto/0016>
+Class: <https://w3id.org/gptto/0016>
 
     Annotations: 
         rdfs:label "Artificial Object"@en,
-        <ttps://w3id.org/gptto/0056> "Artifical objects are made by human beings and do not naturally occur in the environment but are created for a specific purpose or function."
+        <https://w3id.org/gptto/0056> "Artifical objects are made by human beings and do not naturally occur in the environment but are created for a specific purpose or function."
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0015>
+        <https://w3id.org/gptto/0015>
     
     
-Class: <ttps://w3id.org/gptto/0017>
+Class: <https://w3id.org/gptto/0017>
 
     Annotations: 
         rdfs:label "Natural Object"@en,
-        <ttps://w3id.org/gptto/0056> "Natural objects are concrete entities of the natural world that exist without direct human intervention or manufacturing. They arise through natural processes."
+        <https://w3id.org/gptto/0056> "Natural objects are concrete entities of the natural world that exist without direct human intervention or manufacturing. They arise through natural processes."
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0015>
+        <https://w3id.org/gptto/0015>
     
     
-Class: <ttps://w3id.org/gptto/0018>
+Class: <https://w3id.org/gptto/0018>
 
     Annotations: 
         rdfs:label "Non-Living Entity"@en
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0017>
+        <https://w3id.org/gptto/0017>
     
     
-Class: <ttps://w3id.org/gptto/0019>
+Class: <https://w3id.org/gptto/0019>
 
     Annotations: 
         rdfs:label "Living Entity"@en
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0017>
+        <https://w3id.org/gptto/0017>
     
     
-Class: <ttps://w3id.org/gptto/0020>
+Class: <https://w3id.org/gptto/0020>
 
     Annotations: 
         rdfs:label "Bird"@en
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0019>
+        <https://w3id.org/gptto/0019>
     
     
-Class: <ttps://w3id.org/gptto/0021>
+Class: <https://w3id.org/gptto/0021>
 
     Annotations: 
         rdfs:label "Stone"@en
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0018>
+        <https://w3id.org/gptto/0018>
     
     
-Class: <ttps://w3id.org/gptto/0022>
+Class: <https://w3id.org/gptto/0022>
 
     Annotations: 
         rdfs:label "Tool"@en
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0016>
+        <https://w3id.org/gptto/0016>
     
     
-Class: <ttps://w3id.org/gptto/0023>
+Class: <https://w3id.org/gptto/0023>
 
     Annotations: 
         rdfs:label "Writing Instrument"@en
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0022>
+        <https://w3id.org/gptto/0022>
     
     
-Class: <ttps://w3id.org/gptto/0024>
+Class: <https://w3id.org/gptto/0024>
 
     Annotations: 
         rdfs:label "Pen"@en
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0023>
+        <https://w3id.org/gptto/0023>
     
     
-Class: <ttps://w3id.org/gptto/0025>
+Class: <https://w3id.org/gptto/0025>
 
     Annotations: 
         rdfs:label "Occurrence"@en,
-        <ttps://w3id.org/gptto/0056> "Occurences are concrete entities that happen in the physical world and can be perceived, observed or measured."
+        <https://w3id.org/gptto/0056> "Occurences are concrete entities that happen in the physical world and can be perceived, observed or measured."
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0013>
+        <https://w3id.org/gptto/0013>
     
     
-Class: <ttps://w3id.org/gptto/0026>
+Class: <https://w3id.org/gptto/0026>
 
     Annotations: 
         rdfs:label "Action"@en,
-        <ttps://w3id.org/gptto/0056> "Actions occur as sets of movements of living entities."
+        <https://w3id.org/gptto/0056> "Actions occur as sets of movements of living entities."
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0025>
+        <https://w3id.org/gptto/0025>
     
     
-Class: <ttps://w3id.org/gptto/0027>
+Class: <https://w3id.org/gptto/0027>
 
     Annotations: 
         rdfs:label "Kickflip"@en
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0026>
+        <https://w3id.org/gptto/0026>
     
     
-Class: <ttps://w3id.org/gptto/0028>
+Class: <https://w3id.org/gptto/0028>
 
     Annotations: 
         rdfs:label "Phenomenon"@en,
-        <ttps://w3id.org/gptto/0056> "Phenomena are occurrences that imply some kind of pattern or broader significance, which than can be scientifically be studied."
+        <https://w3id.org/gptto/0056> "Phenomena are occurrences that imply some kind of pattern or broader significance, which than can be scientifically be studied."
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0025>
+        <https://w3id.org/gptto/0025>
     
     
-Class: <ttps://w3id.org/gptto/0029>
+Class: <https://w3id.org/gptto/0029>
 
     Annotations: 
         rdfs:label "Behavior"@en,
-        <ttps://w3id.org/gptto/0056> "Behaviors are phenomena of living entities."
+        <https://w3id.org/gptto/0056> "Behaviors are phenomena of living entities."
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0028>
+        <https://w3id.org/gptto/0028>
     
     
-Class: <ttps://w3id.org/gptto/0030>
+Class: <https://w3id.org/gptto/0030>
 
     Annotations: 
         rdfs:label "Bird Migration"@en
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0029>
+        <https://w3id.org/gptto/0029>
     
     
-Class: <ttps://w3id.org/gptto/0031>
+Class: <https://w3id.org/gptto/0031>
 
     Annotations: 
         rdfs:label "Concept"@en,
-        <ttps://w3id.org/gptto/0056> "Concepts are abstract entities, that exist as ideas or mental representations and do not have a physical presence."
+        <https://w3id.org/gptto/0056> "Concepts are abstract entities, that exist as ideas or mental representations and do not have a physical presence."
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0014>
+        <https://w3id.org/gptto/0014>
     
     
-Class: <ttps://w3id.org/gptto/0032>
+Class: <https://w3id.org/gptto/0032>
 
     Annotations: 
         rdfs:label "Value"@en,
-        <ttps://w3id.org/gptto/0056> "Values are abstract entities that used to express certain attributes or concepts. They can be based on qualitative or quantitative aspects."
+        <https://w3id.org/gptto/0056> "Values are abstract entities that used to express certain attributes or concepts. They can be based on qualitative or quantitative aspects."
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0014>
+        <https://w3id.org/gptto/0014>
     
     
-Class: <ttps://w3id.org/gptto/0033>
+Class: <https://w3id.org/gptto/0033>
 
     Annotations: 
         rdfs:label "Process"@en,
-        <ttps://w3id.org/gptto/0056> "Processes are abstract entities that encompass sequences of actions, changes or transformations that occur over time. Processes are manifested through individual actions"
+        <https://w3id.org/gptto/0056> "Processes are abstract entities that encompass sequences of actions, changes or transformations that occur over time. Processes are manifested through individual actions"
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0014>
+        <https://w3id.org/gptto/0014>
     
     
-Class: <ttps://w3id.org/gptto/0034>
+Class: <https://w3id.org/gptto/0034>
 
     Annotations: 
         rdfs:label "Characteristic"@en,
-        <ttps://w3id.org/gptto/0056> "Characteristics are abstract entities that help to identify, classify or describe classes of entities or individuals in terms of typical behavior."
+        <https://w3id.org/gptto/0056> "Characteristics are abstract entities that help to identify, classify or describe classes of entities or individuals in terms of typical behavior."
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0014>
+        <https://w3id.org/gptto/0014>
     
     
-Class: <ttps://w3id.org/gptto/0035>
+Class: <https://w3id.org/gptto/0035>
 
     Annotations: 
         rdfs:label "Attribute"@en,
-        <ttps://w3id.org/gptto/0056> "Attributes are characteristics that can be observed, measured, or represented. They seem to contribute to observing more overarching matters."
+        <https://w3id.org/gptto/0056> "Attributes are characteristics that can be observed, measured, or represented. They seem to contribute to observing more overarching matters."
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0034>
+        <https://w3id.org/gptto/0034>
     
     
-Class: <ttps://w3id.org/gptto/0036>
+Class: <https://w3id.org/gptto/0036>
 
     Annotations: 
         rdfs:label "Property"@en,
-        <ttps://w3id.org/gptto/0056> "Properties are objective, measurable attributes or characteristics of an object or entity that can be quantified, observed or described using empirical methods. Properties can often be represented in the form of data."
+        <https://w3id.org/gptto/0056> "Properties are objective, measurable attributes or characteristics of an object or entity that can be quantified, observed or described using empirical methods. Properties can often be represented in the form of data."
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0035>
+        <https://w3id.org/gptto/0035>
     
     
-Class: <ttps://w3id.org/gptto/0037>
+Class: <https://w3id.org/gptto/0037>
 
     Annotations: 
         rdfs:label "Quality"@en,
-        <ttps://w3id.org/gptto/0056> "Qualities are subjective, perceptual or experiential attributes of an entity that are subjectively perceived or experienced by individuals."
+        <https://w3id.org/gptto/0056> "Qualities are subjective, perceptual or experiential attributes of an entity that are subjectively perceived or experienced by individuals."
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0036>
+        <https://w3id.org/gptto/0036>
     
     
-Class: <ttps://w3id.org/gptto/0038>
+Class: <https://w3id.org/gptto/0038>
 
     Annotations: 
         rdfs:label "Beauty"@en
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0037>
+        <https://w3id.org/gptto/0037>
     
     
-Class: <ttps://w3id.org/gptto/0039>
+Class: <https://w3id.org/gptto/0039>
 
     Annotations: 
         rdfs:label "Humor"@en
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0037>
+        <https://w3id.org/gptto/0037>
     
     
-Class: <ttps://w3id.org/gptto/0040>
+Class: <https://w3id.org/gptto/0040>
 
     Annotations: 
         rdfs:label "Quantity"@en,
-        <ttps://w3id.org/gptto/0056> "Quantities are properties that comprise numerical or quantitative measurements of the properties of an object."
+        <https://w3id.org/gptto/0056> "Quantities are properties that comprise numerical or quantitative measurements of the properties of an object."
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0036>
+        <https://w3id.org/gptto/0036>
     
     
-Class: <ttps://w3id.org/gptto/0041>
+Class: <https://w3id.org/gptto/0041>
 
     Annotations: 
         rdfs:label "Size"@en
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0040>
+        <https://w3id.org/gptto/0040>
     
     
-Class: <ttps://w3id.org/gptto/0043>
+Class: <https://w3id.org/gptto/0043>
 
     Annotations: 
         rdfs:label "Speed"@en
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0040>
+        <https://w3id.org/gptto/0040>
     
     
-Class: <ttps://w3id.org/gptto/0044>
+Class: <https://w3id.org/gptto/0044>
 
     Annotations: 
         rdfs:label "Relationship"@en,
-        <ttps://w3id.org/gptto/0056> "Relationships are characteristics that refer to the relationships or connections that an object has with other objects or entities."
+        <https://w3id.org/gptto/0056> "Relationships are characteristics that refer to the relationships or connections that an object has with other objects or entities."
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0034>
+        <https://w3id.org/gptto/0034>
     
     
-Class: <ttps://w3id.org/gptto/0045>
+Class: <https://w3id.org/gptto/0045>
 
     Annotations: 
         rdfs:label "Functional Attribute"@en,
-        <ttps://w3id.org/gptto/0056> "Functional Attributes are characteristics that include functions, roles, propensities/dispositions or purposes that an object fulfils within a system or context."
+        <https://w3id.org/gptto/0056> "Functional Attributes are characteristics that include functions, roles, propensities/dispositions or purposes that an object fulfils within a system or context."
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0034>
+        <https://w3id.org/gptto/0034>
     
     
-Class: <ttps://w3id.org/gptto/0046>
+Class: <https://w3id.org/gptto/0046>
 
     Annotations: 
         rdfs:label "Function"@en
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0045>
+        <https://w3id.org/gptto/0045>
     
     
-Class: <ttps://w3id.org/gptto/0047>
+Class: <https://w3id.org/gptto/0047>
 
     Annotations: 
         rdfs:label "Writing"@en
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0046>
+        <https://w3id.org/gptto/0046>
     
     
-Class: <ttps://w3id.org/gptto/0048>
+Class: <https://w3id.org/gptto/0048>
 
     Annotations: 
         rdfs:label "Role"@en
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0045>
+        <https://w3id.org/gptto/0045>
     
     
-Class: <ttps://w3id.org/gptto/0049>
+Class: <https://w3id.org/gptto/0049>
 
     Annotations: 
         rdfs:label "Propensity"@en,
-        <ttps://w3id.org/gptto/0056> "Propensities are functional attributes that refer to tendency of a concrete entity to behave or act in a specific way."
+        <https://w3id.org/gptto/0056> "Propensities are functional attributes that refer to tendency of a concrete entity to behave or act in a specific way."
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0045>
+        <https://w3id.org/gptto/0045>
     
     
-Class: <ttps://w3id.org/gptto/0050>
+Class: <https://w3id.org/gptto/0050>
 
     Annotations: 
         rdfs:label "Ride on a Skateboard"@en
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0033>
+        <https://w3id.org/gptto/0033>
     
     
-Class: <ttps://w3id.org/gptto/0051>
+Class: <https://w3id.org/gptto/0051>
 
     Annotations: 
         rdfs:label "Photosynthesis"@en
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0033>
+        <https://w3id.org/gptto/0033>
     
     
-Class: <ttps://w3id.org/gptto/0052>
+Class: <https://w3id.org/gptto/0052>
 
     Annotations: 
         rdfs:label "Numerical Value"@en,
-        <ttps://w3id.org/gptto/0056> "Numerical Values are connected with properties, since they represent the magnitude of quantities."
+        <https://w3id.org/gptto/0056> "Numerical Values are connected with properties, since they represent the magnitude of quantities."
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0032>
+        <https://w3id.org/gptto/0032>
     
     
-Class: <ttps://w3id.org/gptto/0053>
+Class: <https://w3id.org/gptto/0053>
 
     Annotations: 
         rdfs:label "Time"@en
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0031>
+        <https://w3id.org/gptto/0031>
     
     
-Class: <ttps://w3id.org/gptto/0054>
+Class: <https://w3id.org/gptto/0054>
 
     Annotations: 
         rdfs:label "Temporal Interval"@en
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0031>
+        <https://w3id.org/gptto/0031>
     
     
-Class: <ttps://w3id.org/gptto/0055>
+Class: <https://w3id.org/gptto/0055>
 
     Annotations: 
         rdfs:label "Temporal Boundary"@en
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0031>
+        <https://w3id.org/gptto/0031>
     
     
-Class: <ttps://w3id.org/gptto/0058>
+Class: <https://w3id.org/gptto/0058>
 
     Annotations: 
         rdfs:label "Feature"@en,
-        <ttps://w3id.org/gptto/0056> "Features are entities that can also be physical or abstract, that help to identify, classify or describe instances of classes."
+        <https://w3id.org/gptto/0056> "Features are entities that can also be physical or abstract, that help to identify, classify or describe instances of classes."
     
     SubClassOf: 
-        <ttps://w3id.org/gptto/0012>
+        <https://w3id.org/gptto/0012>
     
     
