@@ -1,3 +1,4 @@
+Prefix: : <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/>
 Prefix: owl: <http://www.w3.org/2002/07/owl#>
 Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -6,6 +7,457 @@ Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
 
 
 
-Ontology: <https://w3id.org/gptto/>
-<https://w3id.org/gptto/1.0.0>
+Ontology: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto>
 
+
+AnnotationProperty: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0056>
+
+    Annotations: 
+        rdfs:label "definition"@de
+    
+    
+AnnotationProperty: rdfs:label
+
+    
+Datatype: rdf:PlainLiteral
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0057>
+
+    Annotations: 
+        rdfs:label "manifests"@de
+    
+    Domain: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0026>
+    
+    Range: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0033>
+    
+    
+ObjectProperty: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0059>
+
+    Annotations: 
+        rdfs:label "feature of"@de
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0013>
+
+    Annotations: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0056> "Concrete entities physically exist, have perceivable, observable or measurable characteristics or behaviours. These entities can be part of complex systems or networks and interact with one another and with their environment through processes.",
+        rdfs:label "Concrete Entity"@de
+    
+    SubClassOf: 
+        Entity
+    
+    DisjointWith: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0014>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0014>
+
+    Annotations: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0056> "Abstract entities are entities that do not exist in a physical form and have no physical attributes, therefore they cannot be perceived directly through the senses. These include concepts, values, processes and characteristics.",
+        rdfs:label "Abstract Entity"@de
+    
+    SubClassOf: 
+        Entity
+    
+    DisjointWith: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0013>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0015>
+
+    Annotations: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0056> "An object is an concrete entity that exists physically and has physical characteristics, that can be perceived.",
+        rdfs:label "Object"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0013>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0016>
+
+    Annotations: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0056> "Artifical objects are made by human beings and do not naturally occur in the environment but are created for a specific purpose or function.",
+        rdfs:label "ArtificialObject"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0015>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0017>
+
+    Annotations: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0056> "Natural objects are concrete entities of the natural world that exist without direct human intervention or manufacturing. They arise through natural processes.",
+        rdfs:label "Natural Object"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0015>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0018>
+
+    Annotations: 
+        rdfs:label "NonLivingEntity"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0017>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0019>
+
+    Annotations: 
+        rdfs:label "LivingEntity"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0017>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0020>
+
+    Annotations: 
+        rdfs:label "Bird"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0019>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0021>
+
+    Annotations: 
+        rdfs:label "Stone"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0018>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0022>
+
+    Annotations: 
+        rdfs:label "Tool"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0016>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0023>
+
+    Annotations: 
+        rdfs:label "Writing Instrument"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0022>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0024>
+
+    Annotations: 
+        rdfs:label "Pen"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0023>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0025>
+
+    Annotations: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0056> "Occurences are concrete entities that happen in the physical world and can be perceived, observed or measured.",
+        rdfs:label "Occurrence"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0013>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0026>
+
+    Annotations: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0056> "Actions occur as sets of movements of living entities.",
+        rdfs:label "Action"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0025>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0027>
+
+    Annotations: 
+        rdfs:label "Kickflip"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0026>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0028>
+
+    Annotations: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0056> "Phenomena are occurrences that imply some kind of pattern or broader significance, which than can be scientifically be studied.",
+        rdfs:label "Phenomenon"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0025>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0029>
+
+    Annotations: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0056> "Behaviors are phenomena of living entities.",
+        rdfs:label "Behavior"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0028>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0030>
+
+    Annotations: 
+        rdfs:label "BirdMigration"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0029>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0031>
+
+    Annotations: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0056> "Concepts are abstract entities, that exist as ideas or mental representations and do not have a physical presence.",
+        rdfs:label "Concept"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0014>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0032>
+
+    Annotations: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0056> "Values are abstract entities that used to express certain attributes or concepts. They can be based on qualitative or quantitative aspects.",
+        rdfs:label "Value"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0014>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0033>
+
+    Annotations: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0056> "Processes are abstract entities that encompass sequences of actions, changes or transformations that occur over time. Processes are manifested through individual actions",
+        rdfs:label "Process"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0014>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0034>
+
+    Annotations: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0056> "Characteristics are abstract entities that help to identify, classify or describe classes of entities or individuals in terms of typical behavior.",
+        rdfs:label "Characteristic"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0014>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0035>
+
+    Annotations: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0056> "Attributes are characteristics that can be observed, measured, or represented. They seem to contribute to observing more overarching matters.",
+        rdfs:label "Attribute"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0034>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0036>
+
+    Annotations: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0056> "Properties are objective, measurable attributes or characteristics of an object or entity that can be quantified, observed or described using empirical methods. Properties can often be represented in the form of data.",
+        rdfs:label "Property"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0035>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0037>
+
+    Annotations: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0056> "Qualities are subjective, perceptual or experiential attributes of an entity that are subjectively perceived or experienced by individuals.",
+        rdfs:label "Quality"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0036>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0038>
+
+    Annotations: 
+        rdfs:label "Beauty"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0037>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0039>
+
+    Annotations: 
+        rdfs:label "Humor"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0037>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0040>
+
+    Annotations: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0056> "Quantities are properties that comprise numerical or quantitative measurements of the properties of an object.",
+        rdfs:label "Quantity"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0036>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0041>
+
+    Annotations: 
+        rdfs:label "Size"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0040>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0043>
+
+    Annotations: 
+        rdfs:label "Speed"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0040>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0044>
+
+    Annotations: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0056> "Relationships are characteristics that refer to the relationships or connections that an object has with other objects or entities.",
+        rdfs:label "Relationship"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0034>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0045>
+
+    Annotations: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0056> "Functional Attributes are characteristics that include functions, roles, propensities/dispositions or purposes that an object fulfils within a system or context.",
+        rdfs:label "Functional Attribute"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0034>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0046>
+
+    Annotations: 
+        rdfs:label "Function"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0045>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0047>
+
+    Annotations: 
+        rdfs:label "Writing"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0046>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0048>
+
+    Annotations: 
+        rdfs:label "Role"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0045>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0049>
+
+    Annotations: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0056> "Propensities are functional attributes that refer to tendency of a concrete entity to behave or act in a specific way.",
+        rdfs:label "Propensity"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0045>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0050>
+
+    Annotations: 
+        rdfs:label "Ride of a Skateboard"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0033>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0051>
+
+    Annotations: 
+        rdfs:label "Photosynthesis"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0033>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0052>
+
+    Annotations: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0056> "Numerical Values are connected with properties, since they represent the magnitude of quantities.",
+        rdfs:label "Numerical Value"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0032>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0053>
+
+    Annotations: 
+        rdfs:label "Time"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0031>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0054>
+
+    Annotations: 
+        rdfs:label "Temporal Interval"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0031>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0055>
+
+    Annotations: 
+        rdfs:label "Temporal Boundary"@de
+    
+    SubClassOf: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0031>
+    
+    
+Class: <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0058>
+
+    Annotations: 
+        <http://www.semanticweb.org/nelekoehler/ontologies/2024/3/gptto/0056> "Features are entities that can also be physical or abstract, that help to identify, classify or describe instances of classes.",
+        rdfs:label "Feature"@de
+    
+    SubClassOf: 
+        Entity
+    
+    
+Class: Entity
+
+    
