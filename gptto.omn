@@ -464,3 +464,22 @@ Class: <https://w3id.org/gptto/0058>
         <https://w3id.org/gptto/0012>
     
     
+Class: <https://w3id.org/gptto/0070>
+
+    Annotations: 
+        rdfs:label "Geographical Feature"@en,
+        <https://w3id.org/gptto/0056> "The geographical features are features that contribute to the overall structure of the environment."
+    
+    SubClassOf: 
+        <https://w3id.org/gptto/0058>
+    
+    
+Class: <https://w3id.org/gptto/0071>
+
+    Annotations: 
+        rdfs:label "Desert"@de
+    
+    SubClassOf: 
+        <https://w3id.org/gptto/0070>
+    
+    
